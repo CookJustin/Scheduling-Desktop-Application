@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view_controller.AddCustomerController">
+   <children>
+      <Button fx:id="cancelBtn" layoutX="517.0" layoutY="348.0" mnemonicParsing="false" onAction="#cancelBtn" text="Cancel" />
+      <Button fx:id="addCustomerBtn" layoutX="254.0" layoutY="323.0" mnemonicParsing="false" onAction="#addCustomerBtn" text="Add Customer" />
+      <Pane layoutX="156.0" layoutY="32.0" prefHeight="276.0" prefWidth="289.0" style="-fx-background-color: #c9ffef; -fx-border-style: dotted  dashed  dashed  dashed;">
+         <children>
+            <VBox alignment="CENTER" layoutX="70.0" layoutY="42.0" prefHeight="149.0" prefWidth="149.0">
+               <children>
+                  <TextField fx:id="customerNameTextField" promptText="Customer Name" />
+                  <TextField fx:id="streetTextField" promptText="Street" />
+                  <TextField fx:id="cityTextField" promptText="City" />
+                  <TextField fx:id="phoneNumberTextField" promptText="Phone Number" />
+                  <TextField fx:id="postalCodeTextField" promptText="Postal Code (Zip)" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+      <ComboBox fx:id="countryComboBox" layoutX="226.0" layoutY="233.0" prefWidth="150.0" promptText="Country" />
+      <Text fx:id="errorText" fill="#e82121" layoutX="204.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nonexistent or invalid customer data" visible="false" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="664.0" prefWidth="1151.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view_controller.MainScreen">
+   <children>
+      <HBox layoutX="40.0" layoutY="68.0" spacing="20.0">
+         <children>
+            <Pane prefHeight="541.0" prefWidth="679.0" style="-fx-background-color: #c9ffef; -fx-border-style: dotted  dashed  dashed  dashed;">
+               <children>
+                  <TableView fx:id="customerTableView" layoutX="25.0" layoutY="71.0" prefHeight="134.0" prefWidth="629.0">
+                     <columns>
+                        <TableColumn fx:id="customerNameColumn" prefWidth="158.0" text="Customer Name" />
+                        <TableColumn fx:id="customerAddressColumn" prefWidth="66.0" text="Address" />
+                        <TableColumn fx:id="customerCityColumn" prefWidth="52.0" text="City" />
+                        <TableColumn fx:id="postalCodeColumn" prefWidth="117.0" text="Postal Code" />
+                        <TableColumn fx:id="phoneNumberColumn" prefWidth="127.0" text="Phone Number" />
+                        <TableColumn fx:id="countryColumn" prefWidth="108.0" text="Country" />
+                     </columns>
+                  </TableView>
+                  <Text layoutX="29.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Records">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <HBox layoutX="37.0" layoutY="71.0" spacing="20.0" />
+                  <TableView fx:id="appointmentTableView" layoutX="32.0" layoutY="322.0" prefHeight="171.0" prefWidth="615.0">
+                     <columns>
+                        <TableColumn fx:id="appointmentNameColumn1" prefWidth="134.0" text="Appointment Name" />
+                        <TableColumn fx:id="descriptionColumn1" prefWidth="75.0" text="Description" />
+                        <TableColumn fx:id="locationColumn1" prefWidth="75.0" text="Location" />
+                        <TableColumn fx:id="dateColumn1" prefWidth="100.0" text="Date" />
+                        <TableColumn fx:id="contactColumn1" prefWidth="122.0" text="Contact" />
+                        <TableColumn fx:id="typeColumn1" prefWidth="108.0" text="Type" />
+                     </columns>
+                  </TableView>
+                  <Text layoutX="29.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Appointments">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="addCustomerBtn" layoutX="458.0" layoutY="216.0" mnemonicParsing="false" onAction="#addCustomer" text="Add" />
+                  <Button fx:id="updateCustomerBtn" layoutX="516.0" layoutY="216.0" mnemonicParsing="false" onAction="#updateCustomer" text="Update" />
+                  <Button fx:id="deleteCustomerBtn" layoutX="591.0" layoutY="216.0" mnemonicParsing="false" onAction="#deleteCustomer" text="Delete" />
+                  <Text fx:id="updateErrorText" fill="#dd1e1e" layoutX="435.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a customer to Update" visible="false" />
+                  <Text fx:id="deleteErrorText" fill="#cd1616" layoutX="14.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error: Cannot Delete a Customer with an Appointment" visible="false" />
+               </children>
+            </Pane>
+            <Pane prefHeight="541.0" prefWidth="347.0" style="-fx-background-color: #c9ffef; -fx-border-style: dotted  dashed  dashed  dashed;">
+               <children>
+                  <TableView fx:id="upcomingAppointmentTableView" layoutX="13.0" layoutY="121.0" prefHeight="150.0" prefWidth="319.0">
+                    <columns>
+                      <TableColumn fx:id="appointmentNameColumn" prefWidth="158.0" text="Appointment Name" />
+                        <TableColumn fx:id="appointmentDateColumn" prefWidth="160.0" text="Date" />
+                    </columns>
+                  </TableView>
+                  <Text layoutX="29.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Upcoming Appointments">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <HBox layoutX="37.0" layoutY="71.0" spacing="20.0">
+                     <children>
+                        <RadioButton fx:id="monthBtn" mnemonicParsing="false" onAction="#thisMonth" selected="true" text="Within a Month">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="gr1" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="weekBtn" mnemonicParsing="false" onAction="#thisWeek" text="Within a Week" toggleGroup="$gr1" />
+                     </children>
+                  </HBox>
+                  <Pane layoutX="74.0" layoutY="287.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;">
+                     <children>
+                        <TextArea fx:id="reportText" editable="false" prefHeight="200.0" prefWidth="200.0" text="Generate Report" wrapText="true" />
+                     </children>
+                  </Pane>
+                  <Button fx:id="report1Btn" layoutX="37.0" layoutY="496.0" mnemonicParsing="false" onAction="#report1Btn" text="Report 1" />
+                  <Button fx:id="report2Btn" layoutX="142.0" layoutY="496.0" mnemonicParsing="false" onAction="#report2Btn" text="Report 2" />
+                  <Button fx:id="report3Btn" layoutX="234.0" layoutY="496.0" mnemonicParsing="false" onAction="#report3Btn" text="Report 3" />
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <HBox layoutX="400.0" layoutY="570.0" spacing="20.0">
+         <children>
+            <Button fx:id="addAppointmentBtn" mnemonicParsing="false" onAction="#addAppointment" text="Add" />
+            <Button fx:id="updateAppointmentBtn" mnemonicParsing="false" onAction="#updateAppointment" text="Update" />
+            <Button fx:id="deleteAppointmentBtn" mnemonicParsing="false" onAction="#deleteAppointment" text="Delete" />
+         </children>
+      </HBox>
+      <Text fx:id="textAlert" fill="#d01010" layoutX="279.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" wrappingWidth="439.13671875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="updateErrorText1" fill="#dd1e1e" layoutX="240.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select an appointment to Update" visible="false" />
+      <Text fx:id="selectCustomerText" fill="#e82d2d" layoutX="859.0" layoutY="635.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a Customer for Report 3" visible="false" />
+   </children>
+</AnchorPane>

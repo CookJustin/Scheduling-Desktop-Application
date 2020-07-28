@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="894.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view_controller.AddAppointmentController">
+   <children>
+      <Pane layoutX="130.0" layoutY="11.0" prefHeight="379.0" prefWidth="705.0" style="-fx-background-color: #c9ffef; -fx-border-style: dotted  dashed  dashed  dashed;">
+         <children>
+            <VBox layoutX="62.0" layoutY="56.0">
+               <children>
+                  <TextField fx:id="titleTextField" promptText="Title" />
+                  <TextField fx:id="descriptionTextField" prefHeight="92.0" prefWidth="216.0" promptText="Description" />
+                  <DatePicker fx:id="datePicker" promptText="Date" />
+                  <ComboBox fx:id="timeComboBox" prefWidth="150.0" promptText="Time" />
+                  <TextField fx:id="locationTextField" promptText="Location" />
+                  <TextField fx:id="contactTextField" promptText="Contact" />
+                  <ComboBox fx:id="typeComboBox" prefWidth="150.0" promptText="Type" />
+                  <TextField fx:id="urlTextField" promptText="Url" />
+               </children>
+            </VBox>
+            <Text layoutX="21.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Appointment">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <TableView fx:id="customerTableView" layoutX="307.0" layoutY="98.0" prefHeight="200.0" prefWidth="372.0">
+              <columns>
+                <TableColumn fx:id="customerNameColumn" prefWidth="130.0" text="Customer Name" />
+                <TableColumn fx:id="phoneNumberColumn" prefWidth="106.0" text="Phone Number" />
+                  <TableColumn fx:id="cityColumn" prefWidth="135.0" text="City" />
+              </columns>
+            </TableView>
+            <Text layoutX="307.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Customer for Appointment" wrappingWidth="395.13671875">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Button fx:id="cancelBtn" layoutX="640.0" layoutY="341.0" mnemonicParsing="false" onAction="#cancelBtn" text="Cancel" />
+            <Text fx:id="errorText" fill="#dd2222" layoutX="296.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Fill out all the Information" visible="false" />
+            <Text fx:id="overlappingErrorText" fill="#d01c1c" layoutX="296.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Overlapping appointments, please pick a different date/time" visible="false" wrappingWidth="372.0000092256814">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Button fx:id="addAppointmentBtn" layoutX="244.0" layoutY="345.0" mnemonicParsing="false" onAction="#addAppointmentBtn" text="Add Appointment" />
+   </children>
+</AnchorPane>

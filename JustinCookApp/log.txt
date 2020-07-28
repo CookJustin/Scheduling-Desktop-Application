@@ -1,0 +1,172 @@
+Feb 04, 2020 4:18:42 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Feb 04, 2020 4:18:42 PM view_controller.LoginController loginBtn
+SEVERE: 2020-02-04 16:18:42.356
+Feb 04, 2020 4:19:04 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Feb 04, 2020 4:19:04 PM view_controller.LoginController loginBtn
+SEVERE: 2020-02-04 16:19:04.096
+Jan 26, 2020 2:02:23 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 2:02:23 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 02:02:23.685
+Jan 26, 2020 2:03:38 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 2:03:38 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 02:03:38.926
+Jan 26, 2020 2:10:01 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 2:10:01 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 02:10:01.26
+Jan 26, 2020 2:21:39 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 2:21:39 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 02:21:39.971
+Jan 26, 2020 2:32:18 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 2:32:18 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 02:32:18.568
+Jan 26, 2020 2:33:08 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 2:33:08 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 02:33:08.947
+Jan 26, 2020 2:33:32 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 2:33:32 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 02:33:32.099
+Jan 26, 2020 2:34:11 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 2:34:11 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 02:34:11.246
+Jan 26, 2020 2:35:14 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 2:35:14 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 02:35:14.503
+Jan 26, 2020 7:40:25 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 7:40:25 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 19:40:25.303
+Jan 26, 2020 6:41:51 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 6:41:51 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 18:41:51.997
+Jan 26, 2020 6:45:07 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 6:45:07 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 18:45:07.654
+Jan 27, 2020 12:50:14 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 27, 2020 12:50:14 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-27 00:50:14.24
+Jan 26, 2020 7:51:04 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 7:51:04 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 19:51:04.074
+Jan 26, 2020 4:51:39 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 4:51:39 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 16:51:39.857
+Jan 26, 2020 4:57:45 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 4:57:45 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 16:57:45.164
+Jan 26, 2020 7:58:22 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 7:58:22 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 19:58:22.746
+ene 26, 2020 9:42:47 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 9:42:47 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 21:42:47.821
+ene 26, 2020 9:51:10 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 9:51:10 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 21:51:10.269
+ene 26, 2020 9:54:46 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 9:54:46 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 21:54:46.533
+ene 26, 2020 9:58:58 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 9:58:58 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 21:58:58.261
+ene 26, 2020 10:00:26 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 10:00:26 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 22:00:26.424
+ene 26, 2020 10:06:56 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 10:06:56 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 22:06:56.959
+ene 26, 2020 10:08:19 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 10:08:19 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 22:08:19.795
+ene 26, 2020 10:09:17 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 10:09:17 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 22:09:17.297
+ene 26, 2020 10:11:55 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 10:11:55 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 22:11:55.476
+ene 26, 2020 10:12:53 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 10:12:53 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 22:12:53.322
+ene 26, 2020 10:13:52 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 10:13:52 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 22:13:52.061
+ene 26, 2020 10:14:49 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 10:14:49 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 22:14:49.323
+ene 26, 2020 10:15:48 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 10:15:48 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 22:15:48.27
+ene 26, 2020 10:16:40 PM view_controller.LoginController loginBtn
+GRAVE: USER LOGGED IN
+ene 26, 2020 10:16:40 PM view_controller.LoginController loginBtn
+GRAVE: 2020-01-26 22:16:40.542
+Jan 26, 2020 11:44:21 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 11:44:21 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 23:44:21.513
+Jan 26, 2020 11:45:20 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 11:45:20 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 23:45:20.869
+Jan 26, 2020 11:46:56 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 11:46:56 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 23:46:56.299
+Jan 26, 2020 11:55:48 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 11:55:48 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 23:55:48.634
+Jan 26, 2020 11:57:27 PM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 26, 2020 11:57:27 PM view_controller.LoginController loginBtn
+SEVERE: 2020-01-26 23:57:27.546
+Jan 27, 2020 12:10:25 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 27, 2020 12:10:25 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-27 00:10:25.46
+Jan 27, 2020 6:54:51 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 27, 2020 6:54:51 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-27 06:54:51.092
+Jan 27, 2020 6:55:33 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 27, 2020 6:55:33 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-27 06:55:33.828
+Jan 27, 2020 6:56:42 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 27, 2020 6:56:42 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-27 06:56:42.578
+Jan 27, 2020 6:58:28 AM view_controller.LoginController loginBtn
+SEVERE: USER LOGGED IN
+Jan 27, 2020 6:58:28 AM view_controller.LoginController loginBtn
+SEVERE: 2020-01-27 06:58:28.49
